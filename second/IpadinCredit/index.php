@@ -29,13 +29,15 @@ function getMoneycredit($rate, $comission)
         $currentCredit = 0;
     }
 
-    $finalPayout = round($finalPayout, 2);
-
-    echo "{$finalPayout}\n";
+    return round($finalPayout, 2);
 }
 
-getMoneycredit($rateHomecredit, 0);
-getMoneycredit($rateSoftbank, $comissionSoftbank);
-getMoneycredit($rateStrawberrybank, 0);
+$homeCredit = getMoneycredit($rateHomecredit, 0);
+$softBank = getMoneycredit($rateSoftbank, $comissionSoftbank);
+$strawberryBank = getMoneycredit($rateStrawberrybank, 0);
+
+echo "homeCredit: {$homeCredit}\n";
+echo "softBank: {$softBank}\n";
+echo "strawberryBank: {$strawberryBank}\n";
 
 ?>
