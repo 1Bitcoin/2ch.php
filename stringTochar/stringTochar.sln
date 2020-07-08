@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A0786B88-2ADB-4C21-ABE8-AA2D79766269}") = "stringTochar", "stringTochar\stringTochar.phpproj", "{C1D1CF09-27B2-4BC7-B44F-132828813A27}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C1D1CF09-27B2-4BC7-B44F-132828813A27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D1CF09-27B2-4BC7-B44F-132828813A27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BA4C9E4-E2D0-495E-8B78-0D29F94722C5}
+	EndGlobalSection
+EndGlobal
