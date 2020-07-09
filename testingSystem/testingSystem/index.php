@@ -99,11 +99,10 @@ function checkAnswers($questions, $answers)
         else
         {
             $number = $i + 1;
-            echo "\nWrong answer to the question №{$number} ({$question->text})\n";
+            echo "\nWrong answer to the question В№{$number} ({$question->text})\n";
         }
     }
 
-    // Выведем итог
     echo "\nThe correct answers are: {$correctAnswers}/{$totalQuestions}, points scored: {$pointsTotal}/{$pointsMax}\n";
 }
 
